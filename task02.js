@@ -5,6 +5,7 @@ function addTask() {
     let taskText = taskInput.value;
 
 
+    
     taskList.innerHTML = taskList.innerHTML + `<li>${taskText}</li>` ;
 
     taskInput.value = '';
